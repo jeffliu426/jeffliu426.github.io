@@ -1,0 +1,16 @@
+body {
+	background-image: url("images/attpark.jpg");
+	/*background-size: 1400px 750px;*/
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-repeat: no-repeat;
+    /*background-color: rgb(232, 117, 57);*/
+    /* text-align: center; */
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
