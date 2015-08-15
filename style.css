@@ -1,13 +1,5 @@
 body {
-  background-image: url("images/MammothLake.jpg");
-  /*background-size: 1400px 750px;*/
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-    /*background-color: rgb(232, 117, 57);*/
-    /* text-align: center; */
+  margin: 0;
 }
 
 h1 {
@@ -15,33 +7,85 @@ h1 {
     font-style: italic;
 }
 
-.menu {
-    height: 50px;
-    float: right;
-    margin-top: 15px;
+#header {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    border-style: outset;
+    border-color: gray;
+    z-index: 3;
 }
 
-.text {
-    width: 400px;
-    float: right;
+div#header .header-content {
+  margin-top: 20px;
+  /* margin-left: 15px; */
+  margin-right: 15px;
+  float: right;
+}
+
+#one {
+    z-index: 1;
+  
+}
+
+div#one .first-background {
+
+  height:800px;
+  background-image: url("images/attpark.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+    /*background-color: rgb(232, 117, 57);*/
+    /* text-align: center; */
+}
+
+div#one .text {
+    width: 100%;
+    float: left;
+    position: fixed;
     margin-top: 50px;
     text-align: center;
-    /* margin-left: 300px; */
-    margin-right: 65px;
     font-size: x-large;
     font-family: cursive;
+    /* z-index: 1; */
+}
+
+#two {
+  height: 675px;
+  background-image: url("images/UrnerseeLakeSwitzerland.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 2;
+}
+
+div#two .second-background {
+  
 }
 
 .polaroid {
     position: relative;
 
     float: left;
-    margin-left: 400px;
     /* margin-top: 50px; */
+    /* width: 100%; */
+    /* margin-left: 40px; */
 }
  
 .polaroid img {
-  border: 10px solid #fff;
+  border: 12px solid #fff;
   border-bottom: 45px solid #fff;
   -webkit-box-shadow: 3px 3px 3px #777;
      -moz-box-shadow: 3px 3px 3px #777;
@@ -51,10 +95,16 @@ h1 {
 .polaroid p {
   position: absolute;
   text-align: center;
+  font-size: large;
+  font-family: serif;
   width: 100%;
   bottom: 0px;
   font: 400 18px/1;
-  color: #888;
+  color: rgb(37, 128, 13);
+}
+
+.searchbar {
+  
 }
 
 .btn {
@@ -84,5 +134,3 @@ h1 {
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
-
-
