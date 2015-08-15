@@ -5,6 +5,7 @@ body {
 h1 {
     text-align: center;
     font-style: italic;
+    margin-top: 40px;
 }
 
 #header {
@@ -18,10 +19,10 @@ h1 {
 }
 
 div#header .header-content {
-  margin-top: 20px;
+  margin-top: -30px;
   /* margin-left: 15px; */
-  margin-right: 15px;
-  float: right;
+  /*margin-right: 15px;*/
+  /*float: right;*/
 }
 
 #one {
@@ -46,7 +47,7 @@ div#one .first-background {
     /* text-align: center; */
 }
 
-div#one .text {
+/*div#one .text {
     width: 100%;
     float: left;
     position: fixed;
@@ -54,11 +55,25 @@ div#one .text {
     text-align: center;
     font-size: x-large;
     font-family: cursive;
-    /* z-index: 1; */
+}*/
+
+#s-nav {
+    float: right;
+  
+    margin-top: -50px;
+    margin-right: 15px;
 }
 
+#s-nav li {
+  display: inline-block;
+  list-style-type: none;
+  /*padding-right: 10px;*/
+  text-align: center;
+}
+
+
 #two {
-  height: 715px;
+  height: 1200px;
   background-image: url("images/UrnerseeLakeSwitzerland.jpg");
   background-attachment: fixed;
   background-position: top center;
@@ -151,3 +166,4 @@ div#three .gif-background {
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
+
