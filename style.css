@@ -31,7 +31,7 @@ div#header .header-content {
 
 div#one .first-background {
 
-  height:800px;
+  height:1000px;
   background-image: url("images/attpark.jpg");
   background-attachment: fixed;
   background-position: top center;
@@ -58,7 +58,7 @@ div#one .text {
 }
 
 #two {
-  height: 675px;
+  height: 715px;
   background-image: url("images/UrnerseeLakeSwitzerland.jpg");
   background-attachment: fixed;
   background-position: top center;
@@ -104,7 +104,24 @@ div#two .second-background {
 }
 
 .searchbar {
-  
+
+}
+
+div#three .gif-background {
+
+  height:1000px;
+  background-image: url("images/dog-fail.gif");
+  background-attachment: fixed;
+  background-position: top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+    /*background-color: rgb(232, 117, 57);*/
+    /* text-align: center; */
 }
 
 .btn {
