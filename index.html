@@ -7,6 +7,23 @@
   <!-- Add some style to your site, see http://getbootstrap.com for details -->
   <link rel="stylesheet" type="text/css" 
 	href="style.css">
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+        $('#test-area').mouseout(function(){
+            $('#mycursor').hide();
+            return >false;
+        });
+        $('#test-area').mouseenter(function(){
+            $('#mycursor').show();
+            return >false;
+        });
+        $('#test-area').mousemove(function(e){
+            $('#mycursor').css('left', e.clientX - 20).css('top', e.clientY + 7);
+        });
+});
+</script>
+
 </head>
 
 <body>
@@ -46,14 +63,24 @@
   <div id="two">
     <div class="second-background">
 
+      <div class="background">
+  
       <div class="polaroid">
         <img src="images/selfie.jpg">
           <p> My name is Jeffrey! </p>
       </div>
-
       <div class="bio">
+        <button class="about-me">About Me</button>
+        <div class="personal-tidbits-wrapper">
+          <ul id="personal-tidbits">
+            <li> <span class="highlight"> Currently an undergraduate studying Computer Science At UC Berkeley </span> </li>
+            <li> <span class="highlight">I was born and raised in San Francisco, CA. </span> </li>
+            <li> <span class="highlight">I am a <strong>BIG</strong> fan of the SF Giants, Warriors, and 49ers </span> </li>
+          </ul>
+          
+          </div>
+        </div>
       </div>
-      
     </div>
   </div>
 
@@ -63,7 +90,12 @@
     </div>
   </div>
 
-  <button>Change User</button>
+  <button class="change-user">Change User</button>
+
+<!--   <div id="test-area">
+     Move mouse over this area.
+  </div>
+<div id="mycursor"></div> -->
 
   <script src="scripts/main.js"></script>
 

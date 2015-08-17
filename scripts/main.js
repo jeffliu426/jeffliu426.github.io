@@ -1,4 +1,4 @@
-var myButton = document.querySelector('button');
+var myButton = document.querySelector('.change-user');
 var myHeading = document.querySelector('h1');
 
 function setUserName() {
@@ -17,3 +17,29 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = function() {
   setUserName();
 }
+
+var aboutMe = document.querySelector('.about-me');
+var index = 0;
+
+function changeText() {
+	if (index == 0) {
+		aboutMe.innerHTML = 'Coder';
+		index += 1;
+	}
+	else if (index == 1) {
+		aboutMe.innerHTML = 'Hacker';
+		index += 1;
+	}
+	else {
+		aboutMe.innerHTML = "About Me";
+		index = 0;
+	}
+
+}
+
+aboutMe.onclick = function() {
+	changeText();
+}
+
+
+
