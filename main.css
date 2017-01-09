@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Cherry+Cream+Soda);
 
 #header {
-	background-color: #DDD;
+	background-color: #f3ee58;
 	font-family: 'Cherry Cream Soda', cursive;
 }
 
@@ -10,7 +10,7 @@ HOME
 *********************/
 
 #firstBg {
-	background: url("img/clouds.jpg") center center;
+	background: url("img/berkeley_sunrise.jpg") center center;
 	position: relative;
 	width: 100%;
 	min-height: 750px;
@@ -152,7 +152,7 @@ CONTACT
 *********************/
 
 #fourthBg {
-	background: url("img/waterfall.jpeg") center center;
+	background: url("img/lotus_flowers.jpg") center center;
 	position: relative;
 	width: 100%;
 	min-height: 700px;
@@ -177,14 +177,15 @@ CONTACT
 
 .col-xs-4 {
 	margin-top: 5%;
-	background-color: rgba(239, 255, 0, 0.5);
+	background-color: rgba(239, 255, 0, 0.8);
+	width: 25%;
 }
 
 .contact-info a {
   display: block;
   min-height: 20px;
   background-repeat: no-repeat;
-  background-size: 20px 20px;
+  background-size: 15px 15px;
   padding: 0 0 0 30px;
   margin: 0 0 10px;
 }
