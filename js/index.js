@@ -71,27 +71,51 @@ var index = 0;
 function changeText() {
     switch(index) {
         case 0:
-            aboutMe.innerHTML = 'Coder';
+            aboutMe.innerHTML = 'Welcome!';
             index++;
             break;
         case 1:
-            aboutMe.innerHTML = 'Hacker';
+            aboutMe.innerHTML = "Now that I've got your attention...";
             index++;
             break;
         case 2: 
-            aboutMe.innerHTML = "SF Giants Fan";
+            aboutMe.innerHTML = "If you're a recruiter...";
             index++;
             break;
         case 3: 
-            aboutMe.innerHTML = "Warriors Fan";
+            aboutMe.innerHTML = "Reach out to me!";
             index++;
             break;
         case 4: 
-            aboutMe.innerHTML = "49ers Fan";
+            aboutMe.innerHTML = "I'd love to hear about your company!";
+            index++;
+            break;
+        case 5: 
+            aboutMe.innerHTML = "I'm always open to exploring new opportunities'";
+            index++;
+            break;
+        case 6: 
+            aboutMe.innerHTML = "If you're a friend...";
+            index++;
+            break;
+        case 7: 
+            aboutMe.innerHTML = "Thanks for being my friend.";
+            index++;
+            break;
+        case 8: 
+            aboutMe.innerHTML = "I wouldn't be where I'm at today without the support of my friends and family.";
+            index++;
+            break;
+        case 9: 
+            aboutMe.innerHTML = "You inspire me to be a better person every single day.";
+            index++;
+            break;
+        case 10: 
+            aboutMe.innerHTML = ":)";
             index++;
             break;
         default:
-            aboutMe.innerHTML = "Student";
+            aboutMe.innerHTML = "Click me!";
             index = 0;
             break;
     }
