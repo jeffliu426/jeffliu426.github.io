@@ -120,19 +120,6 @@ function changeText() {
             break;
     }
 
-    // if (index == 0) {
-    //     aboutMe.innerHTML = 'Coder';
-    //     index += 1;
-    // }
-    // else if (index == 1) {
-    //     aboutMe.innerHTML = 'Hacker';
-    //     index += 1;
-    // }
-    // else {
-    //     aboutMe.innerHTML = "Student";
-    //     index = 0;
-    // }
-
 }
 
 aboutMe.onclick = function() {
