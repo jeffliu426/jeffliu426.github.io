@@ -75,43 +75,19 @@ function changeText() {
             index++;
             break;
         case 1:
-            aboutMe.innerHTML = "Now that I've got your attention...";
+            aboutMe.innerHTML = "I thought this was a cool javascript feature";
             index++;
             break;
         case 2: 
-            aboutMe.innerHTML = "If you're a recruiter...";
+            aboutMe.innerHTML = "It's addicting to keep clicking";
             index++;
             break;
         case 3: 
-            aboutMe.innerHTML = "Reach out to me!";
+            aboutMe.innerHTML = "and clicking...";
             index++;
             break;
         case 4: 
-            aboutMe.innerHTML = "I'd love to hear about your company!";
-            index++;
-            break;
-        case 5: 
-            aboutMe.innerHTML = "I'm always open to exploring new opportunities'";
-            index++;
-            break;
-        case 6: 
-            aboutMe.innerHTML = "If you're a friend...";
-            index++;
-            break;
-        case 7: 
-            aboutMe.innerHTML = "Thanks for being my friend.";
-            index++;
-            break;
-        case 8: 
-            aboutMe.innerHTML = "I wouldn't be where I'm at today without the support of my friends and family.";
-            index++;
-            break;
-        case 9: 
-            aboutMe.innerHTML = "You inspire me to be a better person every single day.";
-            index++;
-            break;
-        case 10: 
-            aboutMe.innerHTML = ":)";
+            aboutMe.innerHTML = "Thanks for visiting!";
             index++;
             break;
         default:
