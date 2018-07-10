@@ -3,7 +3,7 @@
 
 #header {
 	background-color: #dddddd;
-	font-family: 'Cherry Cream Soda', cursive;
+	font-family: 'Futura';
 }
 
 /********************
@@ -20,7 +20,7 @@ HOME
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: top center;
-	font-family: 'Karla', sans-serif;
+	font-family: 'Futura';
 }
 
 #welcome {
@@ -30,11 +30,11 @@ HOME
 
 #firstBg h1 {
 	font-size: 46px;
-	font-family: monospace;
+	font-family: 'Futura';
 }
 
 #firstBg h2 {
-	font-family: monospace;
+	font-family: 'Futura';
 }
 
 
@@ -81,6 +81,7 @@ ul {
     text-shadow: 1px 1px 1px rgba(0,0,0, 20);
     box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
     letter-spacing: 2px;
+    font-family: 'Futura';
     transition: 0.2s;
 }
 
@@ -101,7 +102,7 @@ ABOUT
 *********************/
 
 #secondBg {
-	background: url("img/010.jpg") center center;
+	background: url("img/nighttime-background-4.jpg") center center;
 	position: relative;
 	width: 100%;
 	min-height: 800px;
@@ -111,8 +112,7 @@ ABOUT
 	background-attachment: fixed;
 	background-position: top center;
 	color: white;
-	text-align: center;
-	font-family: 'Karla', sans-serif;
+	font-family: 'Futura';
 }
 
 @font-face {
@@ -120,7 +120,7 @@ ABOUT
    src: url('fonts/tuffy/Tuffy.otf');
 }
 
-#firstColumn {
+#secondColumn {
 	text-align: center;
 }
 
@@ -133,6 +133,7 @@ p.about {
 	line-height: 275%;
 	font-family: tuffy;
 	font-size: 18px;
+	text-indent: 32px;
 }
 
 .img-circle {
@@ -180,6 +181,7 @@ CONTACT
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: top center;
+	font-family: 'Futura';
 }
 
 #fourthBg .row {
@@ -192,6 +194,7 @@ CONTACT
   padding: 0;
   margin: 0;
   font-size: 0.9em;
+  font-family: 'Futura';
 }
 
 .col-xs-4 {
@@ -207,6 +210,7 @@ CONTACT
   background-size: 15px 15px;
   padding: 0 0 0 30px;
   margin: 0 0 10px;
+  font-family: 'Futura';
 }
 
 .contact-info li.phone a {
