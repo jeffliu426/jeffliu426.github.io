@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Cherry+Cream+Soda);
 
+
 #header {
 	background-color: #dddddd;
 	font-family: 'Cherry Cream Soda', cursive;
@@ -19,6 +20,7 @@ HOME
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: top center;
+	font-family: 'Karla', sans-serif;
 }
 
 #welcome {
@@ -99,7 +101,7 @@ ABOUT
 *********************/
 
 #secondBg {
-	background: url("img/transamerica.jpg") center center;
+	background: url("img/010.jpg") center center;
 	position: relative;
 	width: 100%;
 	min-height: 800px;
@@ -108,8 +110,9 @@ ABOUT
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: top center;
-	color: orange;
+	color: white;
 	text-align: center;
+	font-family: 'Karla', sans-serif;
 }
 
 @font-face {
