@@ -78,6 +78,8 @@ function changeText() {
             aboutMe.innerHTML = "Thanks for visiting!";
             index++;
             break;
+        default:
+            aboutMe.innerHTML = "Hello!"
     }
 
 }
@@ -86,4 +88,24 @@ aboutMe.onclick = function() {
     changeText();
 }
 
+var current = $(window).scrollTop();
+var total = $(window).height() - current;
+var ele = $(".train");
+var currPosition = ele.position().left + 480;
+var trackLength = 400;
 
+$(window).scroll(function (event) {
+    current = $(window).scrollTop();
+    console.log({total:total,current:current});
+    console.log(current/total * 100);
+    var newPosition = trackLength * (current/total)
+    ele.css({left:currPosition+newPosition+'px'});
+});
+
+$(function () {
+    $(window).scroll(function () {
+        var currentScrollTop = $(window).scrollTop();
+        $('#blackOverlay').css('opacity',currentScrollTop/$('#blackOverlay').height());
+
+    });
+});
