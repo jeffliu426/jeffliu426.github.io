@@ -74,25 +74,9 @@ function changeText() {
             aboutMe.innerHTML = 'Welcome!';
             index++;
             break;
-        case 1:
-            aboutMe.innerHTML = "I thought this was a cool javascript feature";
-            index++;
-            break;
-        case 2: 
-            aboutMe.innerHTML = "It's addicting to keep clicking";
-            index++;
-            break;
-        case 3: 
-            aboutMe.innerHTML = "and clicking...";
-            index++;
-            break;
-        case 4: 
+        case 1: 
             aboutMe.innerHTML = "Thanks for visiting!";
             index++;
-            break;
-        default:
-            aboutMe.innerHTML = "Click me!";
-            index = 0;
             break;
     }
 
