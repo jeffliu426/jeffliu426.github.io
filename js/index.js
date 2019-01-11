@@ -14,7 +14,7 @@ $(document).ready(function(){
 			}
 		}
 	);
-	$('button').hover(
+	$('a.btn').hover(
 		function(){
         	$(this).css("background-color", "#EEE");
         }, 
@@ -32,6 +32,7 @@ $(document).ready(function(){
     );
 	$('a[href$="#home"]').hover(
 		function(){
+            
         	$(this).css("background-color", "#EEE");
         }, 
         function(){
@@ -102,10 +103,10 @@ $(window).scroll(function (event) {
     ele.css({left:currPosition+newPosition+'px'});
 });
 
-$(function () {
-    $(window).scroll(function () {
-        var currentScrollTop = $(window).scrollTop();
-        $('#blackOverlay').css('opacity',currentScrollTop/$('#blackOverlay').height());
+// $(function () {
+//     $(window).scroll(function () {
+//         var currentScrollTop = $(window).scrollTop();
+//         $('#blackOverlay').css('opacity',currentScrollTop/$('#blackOverlay').height());
 
-    });
-});
+//     });
+// });

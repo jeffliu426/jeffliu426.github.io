@@ -85,15 +85,15 @@ ul {
     transition: 0.2s;
 }
 
-.btn:hover {
+a.btn:hover {
 	color: #fff;
-  border: 2px outset rgba(0, 0, 0, 0.9);
-  background: rgba(0,0,0, 0.9);
-  transform:scale(1.1);
-  transition: 0.1s;
-  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
-  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
-  letter-spacing: 2px;
+	border: 2px outset rgba(0, 0, 0, 0.9);
+	background: rgba(0,0,0, 0.9);
+	transform:scale(1.1);
+	transition: 0.1s;
+	text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	letter-spacing: 2px;
 }
 
 .train {
